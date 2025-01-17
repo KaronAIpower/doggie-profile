@@ -1,0 +1,190 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+/* Ensure the body and html elements take up the full width and height */
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;/* Prevent horizontal scrolling */
+  background: #fbc261
+}
+
+/* Existing CSS */
+
+header {
+  background-color: #b85e2a;
+  box-sizing: border-box;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  margin: 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+  padding: 20px 0; /* Add padding to center the text vertically */
+  text-align: center; /* Center the text horizontally */
+  color: white; /* Ensure the text is visible on the background image */
+}
+
+nav {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center; /* Center the navigation links */
+}
+
+nav a {
+  color: #fbc261;
+  text-decoration: none;
+  padding: 0px 30px;
+  margin: 0 15px;
+  font-size: 30px;
+  transition: color 0.3s ease;
+  font-family: 'Times New Roman', Times, serif;
+   
+
+}
+
+nav a:hover {
+  color: #ea8d29;
+}
+
+img {
+  height: 150px;
+  width: 250px;
+  padding: 20px;
+}
+
+.profile-container {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(135deg, #f9f9f9, #e0e0e0);
+  text-align: auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-container:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.profile-image {
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  border: 3px solid salmon;
+  border-radius: 50%;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.profile-image:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.label {
+  font-weight: bold;
+  font-style: italic;
+  color: #ea8d29;
+  margin-right: 5px;
+  font-family: 'Verdana', sans-serif;
+  padding: 2px 5px; /* Padding around the label */
+  border-radius: 4px; /* Rounded corners */
+  border: 1px solid #ccc; /* Light border */
+}
+
+/* Style for the values */
+.value {
+  color: #555;
+  font-family: 'Arial', sans-serif;
+  
+  padding: 2px 5px; /* Padding around the value */
+   
+}
+
+h1 {
+  font-size: 32px;
+  color: #333333;
+  margin-bottom: 12px;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #aaa; /* Add text shadow */
+  letter-spacing: 1px; /* Add letter spacing */
+}
+
+h2 {
+  font-size: 24px;
+  color: #444444;
+  margin: 10px 0;
+  font-family: 'Verdana', sans-serif;
+  text-shadow: 1px 1px 2px #bbb; /* Add text shadow */
+  letter-spacing: 0.5px; /* Add letter spacing */
+}
+
+ 
+
+ 
+.profile-container p {
+  color: #666666;
+  line-height: 1.8; /* Increase line height for better readability */
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  text-align: justify; /* Justify text for a cleaner look */
+  text-shadow: 1px 1px 2px #ddd; /* Add text shadow */
+  letter-spacing: 0.5px; /* Add letter spacing */
+}
+button {
+  background-color: #fbc261;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+
+footer {
+  background-color: #b85e2a;
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+  left: 0;
+}
+
+footer p {
+  margin: 5px 0;
+  color: #ccc;
+  font-family: 'Arial', sans-serif;
+}
